@@ -1,0 +1,50 @@
+.sidebar {
+	  height: 100%;
+	  width: 80px;
+	  position: fixed;
+	  z-index: 1;
+	  top: 0;
+	  left: 75%;
+	  background-color: #00FFFF;
+	  overflow-x: hidden;
+	  padding-top: 20px;
+		  }
+p.a{
+	font-size: 22px;
+}
+
+body{
+	background-color: cadetblue;
+}
+
+textarea{
+	position: center;
+}
+
+
+.row{
+    display: flex;
+    flex-grow: 1;
+    background: pink;    
+}
+.col-1{
+    background: lightblue;
+	flex-grow: 1;
+}
+.col-2{
+      background: strawberry;
+      width: 160px;
+	  order: -1;
+}
+.col-3{
+    background: peachpuff;
+    width: 160px;
+}
+
+a:visited{
+	color: black;
+}
+
+ul{
+	font-size:20px;
+}
