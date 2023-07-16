@@ -1,1 +1,1 @@
-previous works
+Here are some examples of my coding. Adding more personal projects at the moment.
