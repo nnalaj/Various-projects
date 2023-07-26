@@ -1,18 +1,13 @@
 import React from "react";
 
+
 export default Video = () =>{
 
     return(
         <div className='content'>
             <div className="video-background">
-                <iframe
-                    src="https://drive.google.com/file/d/1c0kJkJzk66YrZsmxqURMV3xyieIi2fat/preview" 
-                    allow="autoplay">
-                </iframe>
-            
-            </div>
-            <div className="heading">
-                <h1>NNALAJ</h1>
+                <video src="/ollie.mp4" type='video/mp4' autoPlay loop muted/>
+
             </div>
         </div>
     );

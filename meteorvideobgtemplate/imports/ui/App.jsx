@@ -1,15 +1,16 @@
 import React from 'react';
-import VideoBackground from './../ui/VideoBackground.jsx';
-import { Hello } from './Hello.jsx';
-import  Video  from './video.jsx';
+import VideoBackground from './VideoBackground.jsx';
+import Heading from './Heading.jsx';
+import Video  from './video.jsx';
 
 export default App = () => {
   return (
-    <div className="App">
-      {/* <VideoBackground /> */}
-      <Video />
+    <div className="content">
+      
+      <Video/>  {/*the video component- takes provide video and uses it as the backgroudn for the page. also has the main content div */}
     </div>
   );
 };
+
 
 
