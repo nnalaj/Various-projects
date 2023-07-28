@@ -6,7 +6,7 @@ import Video  from './video.jsx';
 export default App = () => {
   return (
     <div className="content">
-      
+      {/* <Heading /> */}
       <Video/>  {/*the video component- takes provide video and uses it as the backgroudn for the page. also has the main content div */}
     </div>
   );
