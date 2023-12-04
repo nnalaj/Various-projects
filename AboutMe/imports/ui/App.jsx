@@ -1,16 +1,16 @@
 import React from 'react';
-import Heading from './NNALAJ.jsx';
 import Video  from './Video.jsx';
- 
-import {useNavigate} from 'react-router-dom'
+import NNALAJ from './NNALAJ.jsx'; 
+
+
 
 //let navigate = useNavigate();
 
 const App = () => {
   return (
     <div className="content">
-      <Video/>  {/*the video component- also has the main content div */}
-      <Heading />
+      <Video/>  {/*background video */}
+      <NNALAJ />
     </div>
   );
 };
