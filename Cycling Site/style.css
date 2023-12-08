@@ -1,0 +1,543 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:rgba(236.93750202655792, 236.93750202655792, 236.93750202655792, 1);
+
+}
+
+.bannerimg{
+	float: left;
+}
+
+.boxlanding{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+}
+
+.box{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	top: 160px;
+	
+}
+
+.content { 
+	background-color:rgba(236.93750202655792, 236.93750202655792, 236.93750202655792, 1);
+
+
+	color:black;
+	display: flex;
+	flex-direction: column;
+	
+}
+
+.center{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	text-align: center;
+}
+
+
+/* Dropdown Button */
+.dropbtn {
+    color: white;
+	padding: 16px;
+	font-size: 32px;
+	border: 5px solid #F8C74B ;
+	border-radius: 50px;
+	background-color: transparent;
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	z-index: 2;
+	
+
+  }
+
+  .dropbtn:hover, .dropbtn:focus {
+	background-color: #2980B9;
+  }
+  
+  .extradrop{
+	  color:white;
+	  text-decoration: none;
+  }
+
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+	position: relative;
+	display: flex;
+	align-items: center;
+	align-self: center;
+	justify-content: center;
+	gap: 60px;
+	padding: 0;
+	font-size: 32px;
+	list-style-type: none;
+	font-family:'PT Sans', sans-serif; 
+	height: 80px;
+	top: -150px;
+	z-index: 2;
+	margin-left: 20px;
+	margin-right: 20px;
+	
+	
+
+  }
+
+  /*to fix the buttons on the other pages you're going to have to make a duplicate of the dropdown
+  styles and remove top:-150; from dropdown*/
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+	display: none;
+	position: absolute;
+	left: 40px;
+	top: 80px;
+	background-color: #f9f9f9;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 2;
+	border: 5px solid #F8C74B ;
+	border-bottom-right-radius: 50px;
+	border-bottom-left-radius: 50px;
+	border-top-right-radius: 50px;
+	padding: 12px 16px;
+	
+  }
+ 
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	font-family: PT sans;
+	font-size: 28px;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover 
+  {background-color: #F8C74B;
+	border-radius: 50px;
+	}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content 
+  {display: block;
+	background-color: white;
+
+	}
+  
+  /* Change the background color of the dropdown */
+  .dropdown:hover .dropbtn 
+  {background-color: #F8C74B;
+	
+}
+
+.flexbox{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	column-count: 2;
+}
+
+.row{
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+}
+
+.grid{
+	display: grid;
+	grid-column-start: 2;
+	grid-row-start:2;
+}
+
+
+.wrapper{
+	margin-left: 150px;
+	margin-right: 150px;
+	margin-bottom: 50px;
+	margin-top: 50px;
+}
+
+
+
+
+
+/*
+a:link, a:visited{
+	color: white;
+	text-decoration: none;
+	border: 5px solid #F8C74B;
+	padding: 10px;
+	border-radius: 50px;
+	box-sizing: border-box;
+}
+
+a:hover{
+	color: #F8C74B;
+	text-decoration: none;
+	border: 5px solid #F8C74B;
+	padding: 4px;
+	border-radius: 50px;
+	box-sizing: border-box;
+
+}*/
+
+.landingnav {
+	position: relative;
+	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 60px;
+	padding: 0;
+	font-size: 32px;
+	list-style-type: none;
+	font-family:'PT Sans', sans-serif; 
+	height: 80px;
+	top: -150px;
+	z-index: 2;
+	margin: 0;
+
+}
+
+.mainnav, .mainnav:visited{
+	color: white;
+	text-decoration: none;
+	border: 5px solid #F8C74B;
+	margin: 10px;
+	padding: 10px;
+	border-radius: 50px;
+	box-sizing: border-box;
+	display: flex;
+	
+}
+
+.mainnav:hover{
+	color: #F8C74B;
+	text-decoration: none;
+	border: 5px solid white;
+	margin: 10px;
+	border-radius: 50px;
+	box-sizing: border-box;
+	display: flex;
+}
+
+
+
+
+
+.header{
+	color: rgba(255, 255, 255, 1);
+	background-color: rgba(86.00000247359276, 168.0000051856041, 228.0000016093254, 1) ;
+	width: 100%;
+    height: 10%;
+    position: relative;
+    text-align: center;
+    font-family: Pragati Narrow;
+    font-size: 72px;
+    letter-spacing: 20;
+	margin: none;
+	z-index: 2;
+	display: block;
+}
+
+h1, h2, h3{
+	font-family: Pragati Narrow;
+
+}
+
+h1{
+	font-size: 40px;
+}
+
+h2 {
+	font-size: 35px;
+}
+
+
+.navbar{ 
+	background-color:rgba(73.31249848008156, 73.31249848008156, 73.31249848008156, 1);
+	
+	position: relative;
+	color:antiquewhite;
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	gap: 60px;
+	padding: 10px;
+	font-size: 32px;
+	list-style-type: none;
+	font-family:'PT Sans', sans-serif; 
+	height: 80px;
+	top: 0px;
+	
+	
+}
+
+.navcolor{
+	background-color: rgba(73.31249848008156, 73.31249848008156, 73.31249848008156, 1);
+	height: 100px;
+}
+
+
+.normal{
+	color:black;
+	text-decoration: none;
+	display: flex;
+	margin: 10px;
+	font-size: 30px;
+}
+
+.navbartwo {
+	
+	width:100%;
+	position: relative;
+	text-decoration: none;
+	color:black;
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	margin: 10px;
+	font-size: 30px;
+	list-style-type: none;
+	font-family:'PT Sans', sans-serif; 
+	height: 40px;
+}
+
+.tagline {
+	color: white;
+	position: relative;
+	display: flex;
+	z-index:2;
+	align-items: center;
+	justify-content: center;
+	top: -200px;
+	font-family: PT sans;
+}
+
+
+.normal:hover{
+	color: #F8C74B;
+	text-decoration: none;
+	border: 5px solid #F8C74B;
+	margin: 0px;
+	border-radius: 50px;
+	box-sizing: border-box;
+	display: flex;
+	font-size: 30px;
+	
+}
+
+.endnav, .endnav:visited{
+	color: white;
+	text-decoration: none;
+	border: 5px solid #F8C74B;
+	padding: 10px;
+	border-radius: 50px;
+	box-sizing: border-box;
+	font-size: 20px;
+}
+
+.endnav:hover{
+	color:#F8C74B
+}
+
+hr{
+	margin:30px;
+}
+
+
+.itemgrid{
+	display: flex;
+	flex-direction: column;
+	column-count: 3;
+	gap: 40px;
+	justify-content: center;
+}
+
+.item{
+	justify-content: center;
+	padding: 80px;
+	
+}
+
+img{ 
+	display: block;
+	width: 100%;
+}
+
+
+
+.route{
+	width: 600px;
+	margin-top: 80px;
+	margin-bottom: 20px;
+
+}
+
+
+
+
+
+.price{
+	background-color: gray;
+	width: 260;
+	text-align: center;
+	font-size: 26px;
+}
+
+.imagetext{
+	position:absolute;
+	top:50%;
+	font-family: Pragati Narrow;
+	color:#f9f9f9;
+	letter-spacing: 10;
+	font-size: 30px;
+   
+  }
+
+p{
+	font-family: PT Sans;
+	font-size: 20px;
+}
+
+li{
+	font-family: PT Sans;
+	display: flex;
+	
+}
+
+ul{
+	list-style: none;
+	position: relative;
+
+}
+
+.spice{
+	margin-left: 200px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 400px;
+}
+
+#product{
+	width: 260;
+}
+
+
+
+.textimage{
+	position: relative;
+	margin: 5px;
+}
+
+
+
+.cart { 
+	width:79px;
+	height:71px;
+	display: inline;
+	float:right;
+	margin-right: 20px;
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+/* mobile display */
+@media only screen and (max-width: 399px) {
+	.route{
+		width: 300px;
+		margin-top: 80px;
+		margin-bottom: 20px;
+	}
+
+	.wrapper{
+		margin-left: 50px;
+		margin-right: 50px;
+		margin-bottom: 50px;
+		margin-top: 50px;
+	}
+
+	.landing{
+		background-color:rgba(86.00000247359276, 168.0000051856041, 228.0000016093254, 1);
+	}
+
+	.show {display:block;}
+	
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 400px) and (max-width: 780px) {
+	
+	.route{
+		width: 400px;
+	}
+
+	.wrapper{
+		margin-left: 50px;
+		margin-right: 50px;
+		margin-bottom: 50px;
+		margin-top: 50px;
+	}
+
+	.boxlanding{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		position: relative;
+		
+	}
+	
+	.box{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		position: relative;
+		top: 140px;
+		
+	}
+
+	.dropdown {
+		position: relative;
+		display: flex;
+		align-items: center;
+		align-self: center;
+		justify-content: center;
+		gap: 60px;
+		padding: 0;
+		font-size: 32px;
+		list-style-type: none;
+		font-family:'PT Sans', sans-serif; 
+		height: 80px;
+		top: -150px;
+		z-index: 2;
+		margin-left: 20px;
+		margin-right: 20px;
+		margin-top:20px;
+	
+	  }
+
+	  .landing{
+		background-color:rgba(86.00000247359276, 168.0000051856041, 228.0000016093254, 1);
+	}
+
+	  .show {display:block;}
+	  
+
+}

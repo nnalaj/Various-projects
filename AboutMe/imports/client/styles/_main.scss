@@ -1,0 +1,27 @@
+* { //global reset
+  margin: 0;
+  padding: 0;
+}
+
+App {
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(5, 8, 8);
+    overflow: visible;
+  }
+  
+  h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  p {
+    font-size: 1.5rem;
+  }
+
+@import "./components/Resume.scss";
+@import "./components/Video.scss";
+@import "./components//NNALAJ.scss";

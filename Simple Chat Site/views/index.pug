@@ -1,0 +1,23 @@
+doctype html
+html
+    head
+        title Chat 
+        link(rel="stylesheet" type="text/css" href = "/style.css")
+        script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js")
+        script(src="/javascripts/index.js")
+        script(src="/socket.io/socket.io.js")
+
+    body
+        h1 Welcome to Chat
+        br
+        h2 enter a username:
+            input(type="text" id="user")
+            button(id="setUser") set name
+        h3(id="welcome") 
+        div(class = "col-1")
+            h2 chat it up:
+                input(type="text" name="message" id="message")
+                button(id="submit" type="submit") submit
+            textarea(id = "pool" rows="10" cols ="50")
+            
+        
