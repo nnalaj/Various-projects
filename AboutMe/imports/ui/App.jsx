@@ -1,6 +1,5 @@
 import React from 'react';
-import Video  from './Video.jsx';
-import NNALAJ from './NNALAJ.jsx'; 
+import Home from './Home.jsx';
 import {Tracker} from 'meteor/tracker'; //implement this to refresh the video component after x time
 
 
@@ -9,8 +8,7 @@ import {Tracker} from 'meteor/tracker'; //implement this to refresh the video co
 const App = () => {
   return (
     <div className="content">
-      <Video/>  {/*background video */}
-      <NNALAJ />
+      <Home />
     </div>
   );
 };
