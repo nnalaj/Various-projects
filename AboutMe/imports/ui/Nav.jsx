@@ -23,10 +23,10 @@ export default Nav = () => {
                 <NNALAJ />
             </section>
             <section>
-                <div className = "cell">rename</div>
+                <div className = "cell"></div>
             </section>
             <section>
-                <div className = "cell">rename</div>
+                <div className = "cell"></div>
             </section> 
         </div>
     );
