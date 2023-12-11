@@ -2,6 +2,8 @@ import React from "react";
 import Heading from "./NNALAJ";
 
 // setup a way to make videos suffle in the background
+// TODO: locate that video you made for video 2 and put it in the background (it was cool)
+// TODO: locate that 3d scene you made for video 2 and put it in the background too (it was also cool)
 
 export default Video = () =>{
 
