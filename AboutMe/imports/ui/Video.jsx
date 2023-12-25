@@ -4,16 +4,21 @@ import Heading from "./NNALAJ";
 // setup a way to make videos suffle in the background
 // TODO: locate that video you made for video 2 and put it in the background (it was cool)
 // TODO: locate that 3d scene you made for video 2 and put it in the background too (it was also cool)
+// TODO: add the video installations from video 2 (those were cool)
+
+
+
+const playlist = []
+   
+    playlist.push ("./videos/ollie.mp4")
+    playlist.push ("./videos/00530.mp4")
+    playlist.push ("./videos/20210109 big tree fire.mp4")
+    playlist.push ("./videos/bs polejam.mp4")
+    playlist.push ("./videos/half-cab heel.mp4")
 
 export default Video = () =>{
 
-    const playlist = []
-   
-    playlist.push ("./ollie.mp4")
-    playlist.push ("./00530.mp4")
-    playlist.push ("./20210109 big tree fire.mp4")
-    playlist.push ("./bs polejam.mp4")
-    playlist.push ("./half-cab heel.mp4")
+    
 
     // playlist.push ("https://photos.app.goo.gl/urxPduhixi66LG159") need to figure this out to get size down
     // playlist.push ("https://photos.app.goo.gl/fEmdwuzGhLvnmcLW6") this gave me access restricted when loaded on the page
