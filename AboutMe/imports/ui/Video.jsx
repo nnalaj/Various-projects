@@ -7,18 +7,15 @@ import Heading from "./NNALAJ";
 // TODO: add the video installations from video 2 (those were cool)
 
 
+export default Video = () =>{
 
-const playlist = []
+    const playlist = []
    
     playlist.push ("./videos/ollie.mp4")
     playlist.push ("./videos/00530.mp4")
     playlist.push ("./videos/20210109 big tree fire.mp4")
     playlist.push ("./videos/bs polejam.mp4")
     playlist.push ("./videos/half-cab heel.mp4")
-
-export default Video = () =>{
-
-    
 
     // playlist.push ("https://photos.app.goo.gl/urxPduhixi66LG159") need to figure this out to get size down
     // playlist.push ("https://photos.app.goo.gl/fEmdwuzGhLvnmcLW6") this gave me access restricted when loaded on the page
