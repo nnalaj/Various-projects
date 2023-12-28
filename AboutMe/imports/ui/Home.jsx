@@ -4,8 +4,6 @@ import Nav from "./Nav";
 
 export default Home = () => {
 
-
-
     return(
        <div>
              <Nav />   {/*rendered grid in seperate component to save space */}

@@ -4,7 +4,7 @@ import React from "react";
 //add resume details and have them output in a block on the screen
 //add headshot or something
 //maybe add icons to social links
-//style the thing
+//style the thing (working on)
 
 export default Resume =() =>{
         
