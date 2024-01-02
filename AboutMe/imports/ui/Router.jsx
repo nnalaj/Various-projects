@@ -1,8 +1,12 @@
+import React from 'react'
 import Resume from "./Resume";
 import Installs from "./Installs";
 import Home from "./Home";
+import ErrorPage from "./ErrorPage"
+import { createBrowserRouter } from "react-router-dom";
 
-const Router = createBrowserRouter([
+
+export const Router = createBrowserRouter([
     {
       path: "/",
       element: <Home />,
@@ -23,13 +27,6 @@ const Router = createBrowserRouter([
                 errorElement: <ErrorPage />
               }, 
         ],
-
-      errorElement: <ErrorPage />
-        
-    },
-    ,
-    
-    
+      errorElement: <ErrorPage />    
+    }
   ]);
-
-  export default Router;
